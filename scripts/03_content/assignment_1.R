@@ -17,3 +17,4 @@ p
 
 #Save Plot
 ggsave(plot = p, filename = "results/img/first_plot.png")
+
