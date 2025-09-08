@@ -1,14 +1,14 @@
 # my_portfolio
 
-##Description 
+# # Description 
 
 Data analysis for my EVR628 course
 
-#Project structure
+# Project structure
 
--'scripts/' : R scripts for analysis 
--'results/' : outputs for figures and tables
+-`scripts/` : R scripts for analysis 
+-`results/` : outputs for figures and tables
 
-##Author
+# # Author
 
 [Caitlin Coyle]
