@@ -11,7 +11,10 @@ data(data_heatwaves)
 #Create a simple plot
 p <- ggplot(data_heatwaves,
             aes (x = year , y = temp_mean))+
-  geom_point()
+  geom_point() +
+  labs(
+    x = "Year", y = "Mean Temperature"
+  )
 
 p
 
