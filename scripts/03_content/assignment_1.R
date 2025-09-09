@@ -13,7 +13,8 @@ p <- ggplot(data_heatwaves,
             aes (x = year , y = temp_mean))+
   geom_point() +
   labs(
-    x = "Year", y = "Mean Temperature"
+    x = "Year", y = "Mean Temperature",
+    title = "Mean temperature over time"
   )
 
 p
