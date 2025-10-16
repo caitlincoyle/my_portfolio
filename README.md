@@ -2,7 +2,15 @@
 
 # # Description 
 
-Data analysis for my EVR628 course
+Analyzing loggerhead, green sea turtle and leatherback turtle bycatch recordings
+from 2017-2023 
+
+# # Data Source
+
+ICES. 2024. Bycatch of endangered, threatened and protected species of marine 
+mammals, seabirds and marine turtles, and selected fish species of bycatch relevance. 
+In Report of the ICES Advisory Committee, 2024. ICES Advice 2024, 
+byc.eu. https://doi.org/10.17895/ices.advice.27999401
 
 # Project structure
 
