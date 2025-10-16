@@ -13,9 +13,16 @@ In Report of the ICES Advisory Committee, 2024. ICES Advice 2024,
 byc.eu. https://doi.org/10.17895/ices.advice.27999401
 
 ### Project structure
-
--`scripts/` : R scripts for analysis 
--`results/` : outputs for figures and tables
+* `data`: 
+- `data/raw` contains the `*.csv` file as downloaded
+from the ICES website
+- `data/processed` contains the cleaned up version of data
+* `scripts/` : 
+- `scripts/01_processing contains a single script that reads
+the raw data, cleans it and exports it. 
+- `scripts/02_analysis`
+- `scripts/03_contents` contains completed scripts for graph production 
+* `results/` : outputs for figures and tables
 
 ## Author
 
