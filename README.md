@@ -24,7 +24,7 @@ from the ICES website
   excel format that is then cleaned using `library(tidyverse)` and `library(janitor)`
   to format to snake case and change the column `metier_l4` to `gear_type` to more
   accurately represent the data in that column for clear execution of my final visualizations
-        -`data_processing.r` is a script with the object `ices_bycatch` and `turtle_bycatch` 
+        - `data_processing.r` is a script with the object `ices_bycatch` and `turtle_bycatch` 
         that shows reading the original excel file and cleaning it into tidy format to the columns: 
         `ecoregion` for the area it was caught,  `gear_type` to show trawl, purse seine, 
         longline etc., `taxon` to show selection for turtles, `species_latin_name`, 
