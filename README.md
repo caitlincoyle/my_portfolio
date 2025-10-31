@@ -34,7 +34,10 @@ from the ICES website
   - `scripts/02_analysis` 
   - `scripts/03_contents` contains completed scripts for graph production 
 * `results/` : outputs for figures and tables
-
+  - `img` : shows plots 
+    - `turtle_ecoregion.png` : shows turtle bycatch per ecoregion
+    - `turtle_gear_type.png` : shows turtle bycatch by gear type: LLD is longline,
+  
 ## Author
 
 [Caitlin Coyle]
