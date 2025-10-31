@@ -23,7 +23,7 @@ p1 <- ggplot(data = turtle_bycatch,
     title = "Turtle Bycatch by Species (2017-2023)",
     x = "Total Bycatch",
     y = "Species",
-    caption = "Data from ICES survey, 2023") +
+    caption = "Data from ICES survey, 2024") +
   theme_minimal(base_size = 12) +
    theme(
     plot.title = element_text(hjust = 0.5, face = "bold"),
@@ -48,7 +48,7 @@ p2 <- ggplot(turtle_bycatch, aes(x = total_bycatch, y = gear_type,
     x = "Total Bycatch",
     y = "Gear Type",
     color = "Gear Type",
-    caption = "Data sourced from ICES, 2023"
+    caption = "Data sourced from ICES, 2024"
   ) +
   theme_minimal(base_size = 12) +
   theme(
