@@ -24,4 +24,3 @@ view(turtle_bycatch)
 
 write_rds(x = turtle_bycatch,
           file = "data/processed/turtle_bycatch_clean.rds")
-

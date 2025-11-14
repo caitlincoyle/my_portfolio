@@ -61,3 +61,4 @@ print(p2)
 
 ggsave(plot = p2,
        filename = "results/img/turtle_gear_type.png")
+
