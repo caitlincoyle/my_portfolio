@@ -17,7 +17,7 @@ byc.eu. https://doi.org/10.17895/ices.advice.27999401
 ## Project structure
 * `data`: 
   - `data/raw` contains the `*.csv` file as downloaded
-from the ICES website
+from the ICES website, as well as the ICES ecoregion data for spatial visualization
   - `data/processing` contains the cleaned up version of data for visualization 
 * `scripts` : 
   - `scripts/01_processing` shows the importation of the ICES 2024 data in 
@@ -32,11 +32,14 @@ from the ICES website
         bycatch made between 2017-2023, `bycatch_2023` to show estimates for bycatch in 2023, 
         and `total_bycatch` which takes the total of the past two columns for simplicity
   - `scripts/02_analysis` 
-  - `scripts/03_contents` contains completed scripts for graph production 
+  - `scripts/03_contents` contains `assignment_1.R`, `data_visualization.r`, and `spatial_data_visualization.r` for 
+  data managing and producing `img`
 * `results/` : outputs for figures and tables
   - `img` : shows plots 
     - `turtle_ecoregion.png` : shows turtle bycatch per ecoregion
-    - `turtle_gear_type.png` : shows turtle bycatch by gear type: LLD is longline,
+    - `turtle_gear_type.png` : shows turtle bycatch by gear type
+    - `geartype_with_ecoregion.png` : shows facet wrap of the two previous img
+    - `turtle_bycatch_map.png`: utilizes spatial data to reproduce loggerhead and green sea turtle bycatch for ecoregions
   
 ## Author
 
