@@ -41,9 +41,9 @@ head(data_test)
 3. Lastly, it was executed to the `data/processed` folder
 *Using code from the `data_visualization.r` and `spatial_data_visualization.r` scripts*
 ```{r}
-#| echo: false
 #| message: false
 #| error: false
+#| code-fold: true
 #| fig-cap: "shows plots of turtle bycatch by gear type and ecoregion"
 #Load packages------------------------------------
 library(tidyverse)
@@ -112,6 +112,7 @@ print(p2)
 #| echo: false
 #| message: false
 #| error: false
+#| fig-cap: "Shows the bycatch by ecoregion for Green sea turtle and Loggerhead"
 # LOAD PACKAGES
 library(ggspatial) #for ggplot visualization
 library(rnaturalearth) #for mapping baselayer
