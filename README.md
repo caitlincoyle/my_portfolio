@@ -41,7 +41,7 @@ from the ICES website, as well as the ICES ecoregion data for spatial visualizat
     - `geartype_with_ecoregion.png` : shows facet wrap of the two previous img
     - `turtle_bycatch_map.png`: utilizes spatial data to reproduce loggerhead and green sea turtle bycatch for ecoregions
 ## Final Document 
-`final_report.qmd`
+[click here to view final report HTML](final_report.html)
 ## Author
 
 [Caitlin Coyle]
