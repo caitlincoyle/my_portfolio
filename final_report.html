@@ -129,9 +129,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="objectives" class="level2">
 <h2 class="anchored" data-anchor-id="objectives">Objectives</h2>
 <ul>
-<li>accumulate numbers for total bycatch by cleaning the data</li>
-<li>analyze areas in which bycatch are the highest per species</li>
-<li>map the geographical data for the two species with highest bycatch</li>
+<li>Accumulate numbers for total bycatch by cleaning the data</li>
+<li>Analyze areas in which bycatch are the highest per species</li>
+<li>Map the geographical data for the two species with highest bycatch</li>
+<li>Analyze the findings to gather suggestions for lawmakers and scientists</li>
 </ul>
 </section>
 <section id="data-source" class="level2">
@@ -255,6 +256,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
+<p>The next steps were to configure a map using spatial data from ICES ecoregions in order to overlay the bycatch data with physical mapping coordinates to better visualize the areas where bycatch is occuring and at which densities 4. Downloading the packages required to work with vector data, like <code>library(mapview)</code>, <code>library(ggspatial)</code>, <code>library(sf)</code>,<code>library(rnaturalearth)</code> 5. In order to do a <code>left_join</code> for the spatial data and the bycatch data, I had to preform some minor cleanings using the <code>stringr</code> package and <code>janitor</code> packages 6. Then I was able to <code>left_join</code> both data sets in order to use the <code>sf</code> function and render a visual map, which can be seen below</p>
 <div class="cell">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
@@ -272,7 +274,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>Loggerhead sea turtles had a outstandingly high volume of bycatch, most notably from the Adriatic Sea with just under 3,000 individuals from otter trawl</li>
 <li>Leatherback turtles highest bycatch count was from the Azores with a total of 36 individuals, from longlines
 <ul>
-<li>Longlines were also responsible for the most bycatch for green sea turtles, with their totals of 131 individuals from the Aegean-Levantine Sea</li>
+<li>Longlines were also responsible for the most bycatch for green sea turtles, with their totals of 131 individuals from the Aegean-Levantine Sea From these findings, we might conclude that there is a need for TED or other forms of protection against bycatch for these two commonly caught turtle species.</li>
 </ul></li>
 </ul>
 </section>

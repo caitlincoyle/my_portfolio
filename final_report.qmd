@@ -13,9 +13,10 @@ Green sea turtles, leatherback sea turtles, and loggerhead sea turtles are endan
 - Turtle exclusion devices are not currently required in countries outisde of the United States to limit bycatch impact, and therefore we could use this data to promote the use of TEDs within other countries, specifically ICES ecoregions 
 
 ## Objectives
-- accumulate numbers for total bycatch by cleaning the data 
-- analyze areas in which bycatch are the highest per species 
-- map the geographical data for the two species with highest bycatch
+- Accumulate numbers for total bycatch by cleaning the data 
+- Analyze areas in which bycatch are the highest per species 
+- Map the geographical data for the two species with highest bycatch
+- Analyze the findings to gather suggestions for lawmakers and scientists 
 
 
 ## Data Source
@@ -108,6 +109,11 @@ p2 <- ggplot(turtle_bycatch, aes(x = total_bycatch, y = gear_type,
 print(p2)
 
 ```
+
+The next steps were to configure a map using spatial data from ICES ecoregions in order to overlay the bycatch data with physical mapping coordinates to better visualize the areas where bycatch is occuring and at which densities
+4. Downloading the packages required to work with vector data, like `library(mapview)`, `library(ggspatial)`, `library(sf)`,`library(rnaturalearth)` 
+5. In order to do a `left_join` for the spatial data and the bycatch data, I had to preform some minor cleanings using the `stringr` package and `janitor` packages
+6. Then I was able to `left_join` both data sets in order to use the `sf` function and render a visual map, which can be seen below
 ```{r}
 #| echo: false
 #| message: false
@@ -227,7 +233,7 @@ plot(p)
 - Loggerhead sea turtles had a outstandingly high volume of bycatch, most notably from the Adriatic Sea with just under 3,000 individuals from otter trawl 
 - Leatherback turtles highest bycatch count was from the Azores with a total of 36 individuals, from longlines 
   - Longlines were also responsible for the most bycatch for green sea turtles, with their totals of 131 individuals from the Aegean-Levantine Sea 
-  
+From these findings, we might conclude that there is a need for TED or other forms of protection against bycatch for these two commonly caught turtle species.
 
 ## References 
 ICES. 2024. Bycatch of endangered, threatened and protected species of marine 
